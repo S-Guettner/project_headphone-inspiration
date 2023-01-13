@@ -31,7 +31,7 @@
         padding-left: 2rem;
 
 /* navigation on about page */
-            nav{
+            .largeNavFlexContainer{
                 width: 40vw;
                 display: flex;
                 justify-content: space-between;
@@ -62,7 +62,7 @@
     }
 /* =============== main ============= */
     main{
-
+        margin-bottom: 4rem;
         figure{
             width: 92vw;
             margin-left: auto;
@@ -82,9 +82,10 @@
 
         .footerFlexContainer{
             display: flex;
-            width: 60vw;
+            width: 70vw;
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: 3rem;
             
         }
         figure{
@@ -94,9 +95,25 @@
                 img{
                     width: 100%;
                 }
+                figcaption{
+                    display: none;
+                }
         }
         article{
             width: 50%;
+            margin-top: auto;
+            margin-bottom: auto;
+
+                h3{
+                    margin-bottom: 1rem;
+                    color: $beige;
+                }
+                p:first-of-type{
+                    margin-bottom: .5rem;
+                }
+                p{
+                    color:$lightGrey ;
+                }
         }
     }    
 }
