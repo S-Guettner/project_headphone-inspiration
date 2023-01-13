@@ -10,10 +10,15 @@
 /* ========== nav =========== */
 /* ========== nav =========== */
 /* ========== nav =========== */
+/* @mixin hamburgerStyle{
+    color: red;
+}
+ */
 /* ========= about =========== */
 /* ========= about =========== */
 /* ========= about =========== */
 @media only screen and (max-width: 1000px) {
+  /* ========= navigation ========= */
   .largeNavFlexContainer {
     display: none;
   }
@@ -25,6 +30,7 @@
   }
 }
 @media only screen and (min-width: 999px) {
+  /* ========= navigation ========= */
   .hamburgerMenuIconPassiv {
     display: none;
   }
@@ -83,11 +89,9 @@
 }
 #about .navFlexContainer .hamburgerMenuIconPassiv {
   width: 2rem;
-  color: #867772;
 }
 #about .navFlexContainer .hamburgerMenuIconActive {
   width: 2rem;
-  color: #867772;
   display: none;
 }
 #about header {

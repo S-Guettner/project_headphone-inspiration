@@ -53,13 +53,12 @@
                 }
 
             /* ======== hamburger Menu ====== */
-            .hamburgerMenuIconPassiv{
-                
-                @include basichamburgerMenuStyle;
-                
+
+            .hamburgerMenuIconPassiv{            
+                @include basicHamburgerMenuStyle;
             }
             .hamburgerMenuIconActive{
-                @include basichamburgerMenuStyle;
+                @include basicHamburgerMenuStyle;
                 display: none;
             }
 

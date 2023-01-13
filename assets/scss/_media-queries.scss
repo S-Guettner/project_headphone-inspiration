@@ -3,6 +3,7 @@
 /* ========= about =========== */
 
 @media only screen and (max-width:1000px){
+    /* ========= navigation ========= */
     .largeNavFlexContainer{
         display: none;
         a{
@@ -13,8 +14,8 @@
         display: block;
     }
 }
-
 @media only screen and (min-width:999px){
+    /* ========= navigation ========= */
     .hamburgerMenuIconPassiv{
         display: none;
     }
