@@ -1,0 +1,67 @@
+/* =============== imports ============= */
+/* =============== imports ============= */
+/* =============== imports ============= */
+@import "variables";
+@import "mixins";
+@import "media-queries";
+
+
+/* =============== global ============== */
+/* =============== global ============== */
+/* =============== global ============== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ============== about ================= */
+/* ============== about ================= */
+/* ============== about ================= */
+#about{
+    background-color: $darkGrey;
+/* header on about page */
+    .navFlexContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-top: 1rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+
+/* navigation on about page */
+            nav{
+                width: 40vw;
+                display: flex;
+                justify-content: space-between;
+
+                    a{
+                        @include basicNavStyle;
+                    }
+
+                        a:nth-of-type(1){
+                            margin-right: 2rem;
+                        }
+                        a:nth-of-type(4){
+                            padding-right: 2rem;
+                        }
+            }
+    }
+}
+/* text in header */
+header{
+    h1{
+        width: 25vw;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 15vh;
+        color: $lightBeige;
+    }
+}
+
+
+
+
+

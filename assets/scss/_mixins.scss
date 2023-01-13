@@ -1,0 +1,16 @@
+/* imports */
+@import "variables";
+
+/* ========== nav =========== */
+/* ========== nav =========== */
+/* ========== nav =========== */
+
+@mixin basicNavStyle{
+    color: $brown;
+    text-decoration: none;
+    transition-duration: 1s;
+    &:hover{
+        text-decoration:underline;
+        color: $beige;
+    }
+}

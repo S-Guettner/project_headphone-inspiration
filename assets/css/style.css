@@ -1,0 +1,67 @@
+/* =============== imports ============= */
+/* =============== imports ============= */
+/* =============== imports ============= */
+/*=============== colors ==================*/
+/*=============== colors ==================*/
+/*=============== colors ==================*/
+/* imports */ /*=============== colors ==================*/
+/*=============== colors ==================*/
+/*=============== colors ==================*/
+/* ========== nav =========== */
+/* ========== nav =========== */
+/* ========== nav =========== */
+/* =============== global ============== */
+/* =============== global ============== */
+/* =============== global ============== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ============== about ================= */
+/* ============== about ================= */
+/* ============== about ================= */
+#about {
+  background-color: #2e2e2e;
+  /* header on about page */
+}
+#about .navFlexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  /* navigation on about page */
+}
+#about .navFlexContainer nav {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+#about .navFlexContainer nav a {
+  color: #867772;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+#about .navFlexContainer nav a:hover {
+  text-decoration: underline;
+  color: #ebccc2;
+}
+#about .navFlexContainer nav a:nth-of-type(1) {
+  margin-right: 2rem;
+}
+#about .navFlexContainer nav a:nth-of-type(4) {
+  padding-right: 2rem;
+}
+
+/* text in header */
+header h1 {
+  width: 25vw;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15vh;
+  color: rgb(234, 204, 194);
+}/*# sourceMappingURL=style.css.map */
