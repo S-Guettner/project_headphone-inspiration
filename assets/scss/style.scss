@@ -21,7 +21,7 @@
 /* ============== about ================= */
 #about{
     background-color: $darkGrey;
-/* header on about page */
+/* =============== header ============= */
     .navFlexContainer{
         display: flex;
         justify-content: space-between;
@@ -48,18 +48,59 @@
                         }
             }
     }
-}
-/* text in header */
-header{
-    h1{
-        width: 25vw;
-        max-width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 15vh;
-        color: $lightBeige;
+    /* text in header */
+    header{
+        h1{
+            width: 25vw;
+            max-width: 350px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10rem;
+            padding-top: 10vh;
+            color: $lightBeige;
+        }
     }
+/* =============== main ============= */
+    main{
+
+        figure{
+            width: 92vw;
+            margin-left: auto;
+            margin-right: auto;
+
+                img{
+                    width: 100%;
+                }
+                figcaption{
+                    display: none;
+                }
+        }
+    }
+
+/* =============== footer ============= */
+    footer{
+
+        .footerFlexContainer{
+            display: flex;
+            width: 60vw;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        figure{
+            width: 50%;
+            margin-right: 3rem;
+
+                img{
+                    width: 100%;
+                }
+        }
+        article{
+            width: 50%;
+        }
+    }    
 }
+
 
 
 

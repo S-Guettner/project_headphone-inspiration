@@ -24,7 +24,10 @@
 /* ============== about ================= */
 #about {
   background-color: #2e2e2e;
-  /* header on about page */
+  /* =============== header ============= */
+  /* text in header */
+  /* =============== main ============= */
+  /* =============== footer ============= */
 }
 #about .navFlexContainer {
   display: flex;
@@ -55,13 +58,39 @@
 #about .navFlexContainer nav a:nth-of-type(4) {
   padding-right: 2rem;
 }
-
-/* text in header */
-header h1 {
+#about header h1 {
   width: 25vw;
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 15vh;
+  margin-bottom: 10rem;
+  padding-top: 10vh;
   color: rgb(234, 204, 194);
+}
+#about main figure {
+  width: 92vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about main figure img {
+  width: 100%;
+}
+#about main figure figcaption {
+  display: none;
+}
+#about footer .footerFlexContainer {
+  display: flex;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about footer figure {
+  width: 50%;
+  margin-right: 3rem;
+}
+#about footer figure img {
+  width: 100%;
+}
+#about footer article {
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
