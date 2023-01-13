@@ -13,6 +13,22 @@
 /* ========= about =========== */
 /* ========= about =========== */
 /* ========= about =========== */
+@media only screen and (max-width: 1000px) {
+  .largeNavFlexContainer {
+    display: none;
+  }
+  .largeNavFlexContainer a {
+    display: none;
+  }
+  .hamburgerMenuIconPassiv {
+    display: block;
+  }
+}
+@media only screen and (min-width: 999px) {
+  .hamburgerMenuIconPassiv {
+    display: none;
+  }
+}
 /* =============== global ============== */
 /* =============== global ============== */
 /* =============== global ============== */
@@ -22,13 +38,16 @@
   box-sizing: border-box;
 }
 
+.fontColor {
+  color: rgb(234, 204, 194);
+}
+
 /* ============== about ================= */
 /* ============== about ================= */
 /* ============== about ================= */
 #about {
   background-color: #2e2e2e;
   /* =============== header ============= */
-  /* text in header */
   /* =============== main ============= */
   /* =============== footer ============= */
 }
@@ -40,6 +59,7 @@
   padding-right: 2rem;
   padding-left: 2rem;
   /* navigation on about page */
+  /* ======== hamburger Menu ====== */
 }
 #about .navFlexContainer .largeNavFlexContainer {
   width: 40vw;
@@ -61,6 +81,34 @@
 #about .navFlexContainer .largeNavFlexContainer a:nth-of-type(4) {
   padding-right: 2rem;
 }
+#about .navFlexContainer .hamburgerMenuIconPassiv {
+  width: 2rem;
+  color: #867772;
+}
+#about .navFlexContainer .hamburgerMenuIconActive {
+  width: 2rem;
+  color: #867772;
+  display: none;
+}
+#about header {
+  /* small navigation */
+  /* text in header */
+}
+#about header .smallNavContainer {
+  display: none;
+  width: 12rem;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-top: 2rem;
+}
+#about header .smallNavContainer a {
+  display: block;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  color: #867772;
+  text-decoration: none;
+  border-top: 1px solid #867772;
+}
 #about header h1 {
   width: 25vw;
   max-width: 350px;
@@ -68,7 +116,6 @@
   margin-right: auto;
   margin-bottom: 10rem;
   padding-top: 10vh;
-  color: rgb(234, 204, 194);
 }
 #about main {
   margin-bottom: 4rem;
@@ -108,7 +155,6 @@
 }
 #about footer article h3 {
   margin-bottom: 1rem;
-  color: #ebccc2;
 }
 #about footer article p:first-of-type {
   margin-bottom: 0.5rem;
