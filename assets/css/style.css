@@ -104,7 +104,7 @@
               max-width: 350px; */
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10rem;
+  /*             margin-bottom: 10rem; */
   padding-top: 20vh;
 }
 #about main {
@@ -171,11 +171,13 @@
 @media only screen and (max-width: 815px) {
   .headerText {
     max-width: 40vw;
+    margin-bottom: 3rem;
   }
 }
 @media only screen and (min-width: 816px) {
   .headerText {
-    max-width: 30vw;
+    max-width: 20vw;
+    margin-bottom: 5rem;
   }
 }
 @media only screen and (min-width: 999px) {

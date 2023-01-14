@@ -18,12 +18,14 @@
     
     .headerText{
         max-width:40vw;
+        margin-bottom: 3rem;
     }
 
 }
 @media only screen and(min-width:816px){
     .headerText{
-        max-width: 30vw;
+        max-width: 20vw;
+        margin-bottom: 5rem;
     }
 }
 
