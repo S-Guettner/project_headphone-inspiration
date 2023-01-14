@@ -10,27 +10,6 @@
 /* ========== nav =========== */
 /* ========== nav =========== */
 /* ========== nav =========== */
-/* ========= about =========== */
-/* ========= about =========== */
-/* ========= about =========== */
-@media only screen and (max-width: 1000px) {
-  /* ========= navigation ========= */
-  .largeNavFlexContainer {
-    display: none;
-  }
-  .largeNavFlexContainer a {
-    display: none;
-  }
-  #hamburgerMenuIconPassiv {
-    display: block;
-  }
-}
-@media only screen and (min-width: 999px) {
-  /* ========= navigation ========= */
-  #hamburgerMenuIconPassiv {
-    display: none;
-  }
-}
 /* =============== global ============== */
 /* =============== global ============== */
 /* =============== global ============== */
@@ -89,7 +68,7 @@
   width: 2rem;
   color: #867772;
   cursor: pointer;
-  display: none;
+  /* display: none; */
 }
 #about .navFlexContainer #hamburgerMenuIconActive {
   width: 2rem;
@@ -171,4 +150,26 @@
 }
 #about footer article p {
   color: rgb(115, 115, 115);
+}
+
+/* ========= about =========== */
+/* ========= about =========== */
+/* ========= about =========== */
+@media only screen and (max-width: 1000px) {
+  /* ========= navigation ========= */
+  .largeNavFlexContainer {
+    display: none;
+  }
+  .largeNavFlexContainer a {
+    display: none;
+  }
+  #hamburgerMenuIconPassive {
+    display: block;
+  }
+}
+@media only screen and (min-width: 999px) {
+  /* ========= navigation ========= */
+  #hamburgerMenuIconPassive {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -10,13 +10,13 @@
             display: none;
         }
     }
-    #hamburgerMenuIconPassiv{
+    #hamburgerMenuIconPassive{
         display: block;
     }
 }
 @media only screen and (min-width:999px){
     /* ========= navigation ========= */
-    #hamburgerMenuIconPassiv{
+    #hamburgerMenuIconPassive{
         display: none;
     }
 }

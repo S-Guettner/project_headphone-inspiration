@@ -12,4 +12,4 @@ menuActive.addEventListener('click', () =>{
     menuActive.style.display="none";
     menuPassive.style.display="block";
     hamburgerNav.style.display="none";
-})
+});

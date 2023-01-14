@@ -3,7 +3,7 @@
 /* =============== imports ============= */
 @import "variables";
 @import "mixins";
-@import "media-queries";
+
 
 
 /* =============== global ============== */
@@ -49,9 +49,9 @@
 
             /* ======== hamburger Menu ====== */
 
-            #hamburgerMenuIconPassive{            
+            #hamburgerMenuIconPassive{
                 @include basicHamburgerMenuStyle;
-                display: none;
+                /* display: none; */
             }
 
             #hamburgerMenuIconActive{
@@ -136,6 +136,7 @@
         }
     }    
 }
+@import "media-queries";
 
 
 
