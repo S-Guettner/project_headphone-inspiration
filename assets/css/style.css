@@ -54,6 +54,8 @@
   /* =============== footer ============= */
 }
 #about .navFlexContainer {
+  position: fixed;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -83,13 +85,16 @@
 #about .navFlexContainer .largeNavFlexContainer a:nth-of-type(4) {
   padding-right: 2rem;
 }
-#about .navFlexContainer #hamburgerMenuIconPassiv {
+#about .navFlexContainer #hamburgerMenuIconPassive {
   width: 2rem;
   color: #867772;
+  cursor: pointer;
+  display: none;
 }
 #about .navFlexContainer #hamburgerMenuIconActive {
   width: 2rem;
   color: #867772;
+  cursor: pointer;
   display: none;
 }
 #about header {
@@ -102,6 +107,9 @@
   margin-left: auto;
   padding-right: 1rem;
   padding-top: 2rem;
+  position: fixed;
+  top: 5vh;
+  right: 0;
 }
 #about header .smallNavContainer a {
   display: block;
@@ -117,7 +125,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10rem;
-  padding-top: 10vh;
+  padding-top: 20vh;
 }
 #about main {
   margin-bottom: 4rem;
