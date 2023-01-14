@@ -17,11 +17,9 @@
 
 @mixin basicHamburgerMenuStyle{
     width: 2rem;
+    color: $brown;
 }
-/* @mixin hamburgerStyle{
-    color: red;
-}
- */
+
 @mixin navBarSmall{
     width: 12rem;
     margin-left: auto;

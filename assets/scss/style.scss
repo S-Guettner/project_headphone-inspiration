@@ -54,10 +54,10 @@
 
             /* ======== hamburger Menu ====== */
 
-            .hamburgerMenuIconPassiv{            
+            #hamburgerMenuIconPassiv{            
                 @include basicHamburgerMenuStyle;
             }
-            .hamburgerMenuIconActive{
+            #hamburgerMenuIconActive{
                 @include basicHamburgerMenuStyle;
                 display: none;
             }
