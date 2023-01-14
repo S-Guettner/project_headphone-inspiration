@@ -77,8 +77,6 @@
             max-width: 350px; */
             margin-left: auto;
             margin-right: auto;
-/*             margin-bottom: 10rem; */
-            padding-top: 20vh;
         }
     }
 /* =============== main ============= */
@@ -103,15 +101,15 @@
 
         .footerFlexContainer{
             display: flex;
-            width: 70vw;
+/*             width: 80vw; */
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 3rem;
             
         }
         figure{
-            width: 50%;
-            margin-right: 3rem;
+            width: 20rem;
+            /* margin-right: 3rem; */
 
                 img{
                     width: 100%;
@@ -121,7 +119,7 @@
                 }
         }
         article{
-            width: 50%;
+            width: 20rem;
             margin-top: auto;
             margin-bottom: auto;
 
