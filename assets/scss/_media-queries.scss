@@ -14,6 +14,19 @@
         display: block;
     }
 }
+@media only screen and(max-width:815px){
+    
+    .headerText{
+        max-width:40vw;
+    }
+
+}
+@media only screen and(min-width:816px){
+    .headerText{
+        max-width: 30vw;
+    }
+}
+
 @media only screen and (min-width:999px){
     /* ========= navigation ========= */
     #hamburgerMenuIconPassive{

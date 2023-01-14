@@ -71,9 +71,10 @@
                 }
         }
         /* text in header */
-        h1{
+        .headerText{
+/*             display: inline-block;
             width: 25vw;
-            max-width: 350px;
+            max-width: 350px; */
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 10rem;

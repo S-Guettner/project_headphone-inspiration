@@ -98,9 +98,10 @@
   text-decoration: none;
   border-top: 1px solid #867772;
 }
-#about header h1 {
-  width: 25vw;
-  max-width: 350px;
+#about header .headerText {
+  /*             display: inline-block;
+              width: 25vw;
+              max-width: 350px; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10rem;
@@ -165,6 +166,16 @@
   }
   #hamburgerMenuIconPassive {
     display: block;
+  }
+}
+@media only screen and (max-width: 815px) {
+  .headerText {
+    max-width: 40vw;
+  }
+}
+@media only screen and (min-width: 816px) {
+  .headerText {
+    max-width: 30vw;
   }
 }
 @media only screen and (min-width: 999px) {
