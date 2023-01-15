@@ -260,6 +260,217 @@
   color: rgb(115, 115, 115);
 }
 
+/* ^^^^^^^^^^^^^^^^^^^^^^ about ^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ^^^^^^^^^^^^^^^^^^^^^^ about ^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ^^^^^^^^^^^^^^^^^^^^^^ about ^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ====================== lounger ===================== */
+/* ====================== lounger ===================== */
+/* ====================== lounger ===================== */
+#lounger {
+  background-color: #2e2e2e;
+  /* =============== header ============= */
+}
+#lounger .navFlexContainer {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  /* navigation on about page */
+  /* ======== hamburger Menu ====== */
+  /* ^^^^^^^^^^^^^^^^^^^^^^ nav flex container ^^^^^^^^^^^^^^^^^^^^^^ */
+}
+#lounger .navFlexContainer .largeNavFlexContainer {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+#lounger .navFlexContainer .largeNavFlexContainer a {
+  color: #867772;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+#lounger .navFlexContainer .largeNavFlexContainer a:hover {
+  text-decoration: underline;
+  color: #ebccc2;
+}
+#lounger .navFlexContainer .largeNavFlexContainer a:nth-of-type(1) {
+  margin-right: 2rem;
+}
+#lounger .navFlexContainer .largeNavFlexContainer a:nth-of-type(4) {
+  padding-right: 2rem;
+}
+#lounger .navFlexContainer #hamburgerMenuIconPassive {
+  width: 2rem;
+  color: #867772;
+  cursor: pointer;
+  /* display: none; */
+}
+#lounger .navFlexContainer #hamburgerMenuIconActive {
+  width: 2rem;
+  color: #867772;
+  cursor: pointer;
+  display: none;
+}
+#lounger header {
+  /* small navigation */
+  /* text in header */
+}
+#lounger header .smallNavContainer {
+  display: none;
+  width: 12rem;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  position: fixed;
+  top: 5vh;
+  right: 0;
+}
+#lounger header .smallNavContainer a {
+  display: block;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  color: #867772;
+  text-decoration: none;
+  border-top: 1px solid #867772;
+}
+#lounger header .headerText {
+  margin-left: auto;
+  margin-right: auto;
+}
+#lounger main .mainFlexContainer {
+  display: flex;
+  width: 100%;
+}
+#lounger main .mainFlexContainer .image {
+  width: 50rem;
+  /* height: 100vh; */
+  background: url(../img/section-voyager.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#lounger main .mainFlexContainer .mainText {
+  /* padding-top: 10rem; */
+  width: 40rem;
+  padding-left: 4rem;
+  padding-right: 2rem;
+  font-size: 2rem;
+}
+#lounger main .mainFlexContainer .mainText .textTitle {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  color: rgb(234, 204, 194);
+}
+#lounger main .mainFlexContainer .mainText .text {
+  color: rgb(115, 115, 115);
+}
+#lounger main aside {
+  margin-left: 0.2rem;
+  position: fixed;
+  top: 15rem;
+}
+#lounger main aside section .innerCircle {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  border: 1px solid rgb(115, 115, 115);
+}
+#lounger main aside section .circleAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  margin-bottom: 0.2rem;
+}
+#lounger main aside section .circleLounger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-bottom: 0.2rem;
+}
+#lounger main aside section .circleExperience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  margin-bottom: 0.2rem;
+}
+#lounger main aside section .circleInspiration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  margin-bottom: 0.2rem;
+}
+#lounger main aside section .circleShop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  margin-bottom: 0.2rem;
+}
+#lounger main aside section .line {
+  width: 1px;
+  height: 2rem;
+  background-color: rgb(115, 115, 115);
+  margin-left: 0.457rem;
+  margin-bottom: 0.3rem;
+}
+#lounger main aside section .linkAbout {
+  position: absolute;
+  top: -0.1rem;
+  left: 1.5rem;
+  text-decoration: none;
+  color: rgb(115, 115, 115);
+}
+#lounger main aside section .linkLounger {
+  position: absolute;
+  top: 3.5rem;
+  left: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+#lounger main aside section .linkExperience {
+  position: absolute;
+  top: 7rem;
+  left: 1.5rem;
+  text-decoration: none;
+  color: rgb(115, 115, 115);
+}
+#lounger main aside section .linkInspiration {
+  position: absolute;
+  top: 10.5rem;
+  left: 1.5rem;
+  text-decoration: none;
+  color: rgb(115, 115, 115);
+}
+#lounger main aside section .linkShop {
+  position: absolute;
+  top: 14rem;
+  left: 1.5rem;
+  text-decoration: none;
+  color: rgb(115, 115, 115);
+}
+
 /* ========= about =========== */
 /* ========= about =========== */
 /* ========= about =========== */
@@ -312,5 +523,28 @@
 @media only screen and (min-width: 640px) {
   .footerFlexContainer {
     justify-content: space-between;
+  }
+}
+/* ================ lounger ============= */
+/* ================ lounger ============= */
+/* ================ lounger ============= */
+@media only screen and (max-width: 1000px) {
+  #lounger .mainFlexContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #lounger .mainFlexContainer .image {
+    height: 70vh;
+  }
+  #lounger .mainFlexContainer .mainText {
+    padding-top: 1rem;
+  }
+}
+@media only screen and (min-width: 999px) {
+  #lounger .mainFlexContainer .image {
+    height: 100vh;
+  }
+  #lounger .mainFlexContainer .mainText {
+    padding-top: 10rem;
   }
 }/*# sourceMappingURL=style.css.map */
