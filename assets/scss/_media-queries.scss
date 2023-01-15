@@ -251,8 +251,6 @@
 
 @media only screen and (max-width:700px){
     #shop{
-        overflow-x: hidden;
-        overflow-y: hidden;
         .imageContainer{
             width: 100vw;
         }
@@ -261,6 +259,26 @@
             img{
             max-width: 380px;
             }
+        }
+    }
+}
+
+
+/* ================== contact =============== */
+/* ================== contact =============== */
+/* ================== contact =============== */
+
+@media only screen and (max-width:1000px){
+    #contact{
+
+        .largeNavFlexContainer{
+            display: none;
+            a{
+                display: none;
+            }
+        }
+        #hamburgerMenuIconPassive{
+            display: block;
         }
     }
 }

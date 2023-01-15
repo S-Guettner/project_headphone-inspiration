@@ -1391,19 +1391,19 @@ aside section .linkContact:hover {
   text-decoration: none;
   border-top: 1px solid #867772;
 }
-#contact aside {
+#contact main aside {
   margin-left: 0.2rem;
   position: fixed;
-  top: 25rem;
+  top: 5rem;
   left: 0;
 }
-#contact aside section .innerCircle {
+#contact main aside section .innerCircle {
   width: 0.6rem;
   height: 0.6rem;
   border-radius: 50%;
   border: 1px solid rgb(115, 115, 115);
 }
-#contact aside section .circleAbout {
+#contact main aside section .circleAbout {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1413,7 +1413,7 @@ aside section .linkContact:hover {
   border: 1px solid transparent;
   margin-bottom: 0.2rem;
 }
-#contact aside section .circleLounger {
+#contact main aside section .circleLounger {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1423,7 +1423,7 @@ aside section .linkContact:hover {
   border: 1px solid transparent;
   margin-bottom: 0.2rem;
 }
-#contact aside section .circleExperience {
+#contact main aside section .circleExperience {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1433,7 +1433,7 @@ aside section .linkContact:hover {
   border: 1px solid transparent;
   margin-bottom: 0.2rem;
 }
-#contact aside section .circleInspiration {
+#contact main aside section .circleInspiration {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1443,7 +1443,7 @@ aside section .linkContact:hover {
   border: 1px solid transparent;
   margin-bottom: 0.2rem;
 }
-#contact aside section .circleShop {
+#contact main aside section .circleShop {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1453,7 +1453,7 @@ aside section .linkContact:hover {
   border: 1px solid transparent;
   margin-bottom: 0.2rem;
 }
-#contact aside section .circleContact {
+#contact main aside section .circleContact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1463,74 +1463,99 @@ aside section .linkContact:hover {
   border: 1px solid white;
   margin-bottom: 0.2rem;
 }
-#contact aside section .line {
+#contact main aside section .line {
   width: 1px;
   height: 2rem;
   background-color: rgb(115, 115, 115);
   margin-left: 0.457rem;
   margin-bottom: 0.3rem;
 }
-#contact aside section .linkAbout {
+#contact main aside section .linkAbout {
   position: absolute;
   top: -0.1rem;
   left: 1.5rem;
   text-decoration: none;
   color: rgb(115, 115, 115);
 }
-#contact aside section .linkAbout:hover {
+#contact main aside section .linkAbout:hover {
   color: rgb(234, 204, 194);
   transition: 1s;
 }
-#contact aside section .linkLounger {
+#contact main aside section .linkLounger {
   position: absolute;
   top: 3.5rem;
   left: 1.5rem;
   text-decoration: none;
   color: rgb(115, 115, 115);
 }
-#contact aside section .linkLounger:hover {
+#contact main aside section .linkLounger:hover {
   color: rgb(234, 204, 194);
   transition: 1s;
 }
-#contact aside section .linkExperience {
+#contact main aside section .linkExperience {
   position: absolute;
   top: 7rem;
   left: 1.5rem;
   text-decoration: none;
   color: rgb(115, 115, 115);
 }
-#contact aside section .linkExperience:hover {
+#contact main aside section .linkExperience:hover {
   color: rgb(234, 204, 194);
   transition: 1s;
 }
-#contact aside section .linkInspiration {
+#contact main aside section .linkInspiration {
   position: absolute;
   top: 10.5rem;
   left: 1.5rem;
   text-decoration: none;
   color: rgb(115, 115, 115);
 }
-#contact aside section .linkShop {
+#contact main aside section .linkInspiration:hover {
+  color: rgb(234, 204, 194);
+  transition: 1s;
+}
+#contact main aside section .linkShop {
   position: absolute;
   top: 14rem;
   left: 1.5rem;
   text-decoration: none;
   color: rgb(115, 115, 115);
 }
-#contact aside section .linkShop:hover {
+#contact main aside section .linkShop:hover {
   color: rgb(234, 204, 194);
   transition: 1s;
 }
-#contact aside section .linkContact {
+#contact main aside section .linkContact {
   position: absolute;
   top: 17.5rem;
   left: 1.5rem;
   text-decoration: none;
   color: white;
 }
-#contact aside section .linkContact:hover {
+#contact main aside section .linkContact:hover {
   color: rgb(234, 204, 194);
   transition: 1s;
+}
+#contact main .inputContainer {
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20rem;
+}
+#contact main .inputContainer .contactText {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+#contact main .inputContainer label {
+  display: none;
+}
+#contact main .inputContainer input {
+  width: 100%;
+  padding: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+#contact main .inputContainer textarea {
+  width: 100%;
 }
 
 /* ========= about =========== */
@@ -1735,10 +1760,6 @@ aside section .linkContact:hover {
   }
 }
 @media only screen and (max-width: 700px) {
-  #shop {
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
   #shop .imageContainer {
     width: 100vw;
   }
@@ -1747,5 +1768,19 @@ aside section .linkContact:hover {
   }
   #shop figure img {
     max-width: 380px;
+  }
+}
+/* ================== contact =============== */
+/* ================== contact =============== */
+/* ================== contact =============== */
+@media only screen and (max-width: 1000px) {
+  #contact .largeNavFlexContainer {
+    display: none;
+  }
+  #contact .largeNavFlexContainer a {
+    display: none;
+  }
+  #contact #hamburgerMenuIconPassive {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
