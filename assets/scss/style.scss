@@ -448,14 +448,208 @@
             }
         }
 }
+/* ^^^^^^^^^^^^^^^^^^^^^^ lounger ^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ^^^^^^^^^^^^^^^^^^^^^^ lounger ^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ^^^^^^^^^^^^^^^^^^^^^^ lounger ^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
 
+/* ====================== experience ===================== */
+/* ====================== experience ===================== */
+/* ====================== experience ===================== */
 
+#experience{
+background-color: $darkGrey;
+    /* =============== header ============= */
+        .navFlexContainer{
+            @include navFlexContainer;
+    
+    /* navigation on about page */
+                .largeNavFlexContainer{
+                    width: 40vw;
+                    display: flex;
+                    justify-content: space-between;
+    
+                        a{
+                            @include basicNavStyle;
+                        }
+    
+                            a:nth-of-type(1){
+                                margin-right: 2rem;
+                            }
+                            a:nth-of-type(4){
+                                padding-right: 2rem;
+                            }
+                    }
+    
+                /* ======== hamburger Menu ====== */
+    
+                #hamburgerMenuIconPassive{
+                    @include basicHamburgerMenuStyle;
+                    /* display: none; */
+                }
+    
+                #hamburgerMenuIconActive{
+                    @include basicHamburgerMenuStyle;
+                    display: none;
+                }
+    /* ^^^^^^^^^^^^^^^^^^^^^^ nav flex container ^^^^^^^^^^^^^^^^^^^^^^ */
+    
+        }
+        header{
+            /* small navigation */
+            .smallNavContainer{
+                display: none;
+                @include navBarSmall;
+    
+                a{
+                        @include navBarSmallItems;
+                    }
+            }
+            /* text in header */
+            .headerText{
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        main{
 
+                .mainFlexContainer{
+                    display: flex;
+                    width: 100%;
 
+                    .image{
+                        width: 50rem;
+                        /* height: 100vh; */
+                        background: url(../img/section-experience-1.jpg);
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    .mainText{
+                        /* padding-top: 10rem; */
+                        width: 50rem;
+                        padding-left: 4rem;
+                        padding-right: 2rem;
+                        font-size: 2rem;
 
-
+                            .textTitle{
+                                font-size: 3rem;
+                                margin-bottom: 5rem;
+                                color: $lightBeige;
+                            }
+                            .text{
+                                color: $lightGrey;
+                            }
+                    }
+                }
+            aside{
+                margin-left: .2rem;
+                position: fixed;
+                top: 15rem;
+                section{
+    
+                    .innerCircle{
+                        width: .6rem;
+                        height: .6rem;
+                        border-radius: 50%;
+                        border: 1px solid $lightGrey;
+                    }
+                    .circleAbout{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 50%;
+                        border: 1px solid transparent;
+                        margin-bottom: .2rem;
+                    }
+                    .circleLounger{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 50%;
+                        border: 1px solid transparent;
+                        margin-bottom: .2rem;
+                    }
+                    .circleExperience{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 50%;
+                        border: 1px solid white;
+                        margin-bottom: .2rem;
+                    }
+                    .circleInspiration{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 50%;
+                        border: 1px solid transparent;
+                        margin-bottom: .2rem;
+                    }
+                    .circleShop{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 50%;
+                        border: 1px solid transparent;
+                        margin-bottom: .2rem;
+                    }
+                    .line{
+                        width: 1px;
+                        height: 2rem;
+                        background-color: $lightGrey;
+                        margin-left: .457rem;
+                        margin-bottom: .3rem;
+                    }
+                    .linkAbout{
+                        position: absolute;
+                        top: -.1rem;
+                        left: 1.5rem;
+                        text-decoration: none;
+                        color: $lightGrey;
+                    }
+                    .linkLounger{
+                        position: absolute;
+                        top: 3.5rem;
+                        left: 1.5rem;
+                        text-decoration: none;
+                        color: $lightGrey;
+                    }
+                    .linkExperience{
+                        position: absolute;
+                        top: 7rem;
+                        left: 1.5rem;
+                        text-decoration: none;
+                        color: white;
+                    }
+                    .linkInspiration{
+                        position: absolute;
+                        top: 10.5rem;
+                        left: 1.5rem;
+                        text-decoration: none;
+                        color: $lightGrey;
+                    }
+                    .linkShop{
+                        position: absolute;
+                        top: 14rem;
+                        left: 1.5rem;
+                        text-decoration: none;
+                        color: $lightGrey;
+                    }
+                }
+            }
+        }
+}
 
 
 

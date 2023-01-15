@@ -90,3 +90,36 @@
         }
     }
 }
+
+/* ================ experience ============= */
+/* ================ experience ============= */
+/* ================ experience ============= */
+
+@media only screen and (max-width:1000px){
+    #experience{
+        .mainFlexContainer{
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .image{
+                height: 70vh;
+            }
+            .mainText{
+                padding-top: 1rem;
+            }
+        }
+    }
+}
+@media only screen and (min-width:999px){
+    #experience{
+        .mainFlexContainer{
+
+            .image{
+                height: 100vh;
+            }
+            .mainText{
+                padding-top: 10rem;
+            }
+        }
+    }
+}
