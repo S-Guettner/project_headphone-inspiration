@@ -27,6 +27,9 @@
 .fontColor{
     color: $lightBeige;
 }
+.fontColorGrey{
+    color: $lightGrey;
+}
 
 
 /* ============== about ================= */
@@ -170,6 +173,10 @@
                     left: 1.5rem;
                     text-decoration: none;
                     color: $lightGrey;
+                    &:hover{
+                        color: $lightBeige;
+                        transition: 1s;
+                    }
                 }
                 .linkExperience{
                     position: absolute;
@@ -177,6 +184,10 @@
                     left: 1.5rem;
                     text-decoration: none;
                     color: $lightGrey;
+                    &:hover{
+                        color: $lightBeige;
+                        transition: 1s;
+                    }
                 }
                 .linkInspiration{
                     position: absolute;
@@ -184,6 +195,10 @@
                     left: 1.5rem;
                     text-decoration: none;
                     color: $lightGrey;
+                    &:hover{
+                        color: $lightBeige;
+                        transition: 1s;
+                    }
                 }
                 .linkShop{
                     position: absolute;
@@ -191,6 +206,10 @@
                     left: 1.5rem;
                     text-decoration: none;
                     color: $lightGrey;
+                    &:hover{
+                        color: $lightBeige;
+                        transition: 1s;
+                    }
                 }
             }
         }
@@ -415,6 +434,10 @@
                         left: 1.5rem;
                         text-decoration: none;
                         color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
                     }
                     .linkLounger{
                         position: absolute;
@@ -429,6 +452,10 @@
                         left: 1.5rem;
                         text-decoration: none;
                         color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
                     }
                     .linkInspiration{
                         position: absolute;
@@ -436,6 +463,10 @@
                         left: 1.5rem;
                         text-decoration: none;
                         color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
                     }
                     .linkShop{
                         position: absolute;
@@ -443,6 +474,10 @@
                         left: 1.5rem;
                         text-decoration: none;
                         color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
                     }
                 }
             }
@@ -617,6 +652,10 @@ background-color: $darkGrey;
                         left: 1.5rem;
                         text-decoration: none;
                         color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
                     }
                     .linkLounger{
                         position: absolute;
@@ -624,6 +663,10 @@ background-color: $darkGrey;
                         left: 1.5rem;
                         text-decoration: none;
                         color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
                     }
                     .linkExperience{
                         position: absolute;
@@ -638,6 +681,10 @@ background-color: $darkGrey;
                         left: 1.5rem;
                         text-decoration: none;
                         color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
                     }
                     .linkShop{
                         position: absolute;
@@ -645,6 +692,10 @@ background-color: $darkGrey;
                         left: 1.5rem;
                         text-decoration: none;
                         color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
                     }
                 }
             }
@@ -652,8 +703,469 @@ background-color: $darkGrey;
 }
 
 
+/* ====================== inspiration ===================== */
+/* ====================== inspiration ===================== */
+/* ====================== inspiration ===================== */
 
 
+#inspiration{
+    background-color: $darkGrey;
+        /* =============== header ============= */
+            .navFlexContainer{
+                @include navFlexContainer;
+        
+        /* navigation on about page */
+                    .largeNavFlexContainer{
+                        width: 40vw;
+                        display: flex;
+                        justify-content: space-between;
+        
+                            a{
+                                @include basicNavStyle;
+                            }
+        
+                                a:nth-of-type(1){
+                                    margin-right: 2rem;
+                                }
+                                a:nth-of-type(4){
+                                    padding-right: 2rem;
+                                }
+                        }
+        
+                    /* ======== hamburger Menu ====== */
+        
+                    #hamburgerMenuIconPassive{
+                        @include basicHamburgerMenuStyle;
+                        /* display: none; */
+                    }
+        
+                    #hamburgerMenuIconActive{
+                        @include basicHamburgerMenuStyle;
+                        display: none;
+                    }
+        /* ^^^^^^^^^^^^^^^^^^^^^^ nav flex container ^^^^^^^^^^^^^^^^^^^^^^ */
+        
+            }
+            header{
+                /* small navigation */
+                .smallNavContainer{
+                    display: none;
+                    @include navBarSmall;
+        
+                    a{
+                            @include navBarSmallItems;
+                        }
+                }
+                .videoContainer{
+                    width: 70vw;
+                    padding-top: 12rem;
+                    margin-bottom: 4rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: flex;
+                    justify-content: center;
+
+                    video{
+                        width: 100%;
+                        border-radius: .5rem;
+                    }
+                }
+            }
+            main{
+
+                    .marginBottom{
+                        margin-bottom: 5rem;
+                    }
+
+                    .mainText{
+                        margin-bottom: .5rem;
+                    }
+                    .mainTitle{
+                        margin-bottom: 1rem;
+                    }
+                    .mainKeywordsFlexContainer{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 15vw;
+                        margin-bottom: .5rem;
+
+                            p{
+                                border: 0.5px solid white;
+                                padding: .2rem;
+                                margin: .2rem;
+                            }
+                    }
+                    .mainSectionFlexContainer{
+                        display:flex;
+                        justify-content: space-around;
+                        margin-left: auto;
+                        margin-right: auto;
+
+                        p:nth-of-type(1){
+                            margin-bottom: 2rem;
+                            padding-top: 2rem;
+                        }
+                        .firstImageContainer{
+                            background: url(../img/ETC_6.webp);
+                            width: 30rem;
+                            height: 20rem;
+                            background-size: cover;
+                        }
+                        .secondImageContainer{
+                            background: url(../img/ETC_5.webp);
+                            width: 30rem;
+                            height: 20rem;
+                            background-size: cover;
+                        }
+                        .mainSectionTextContainer{
+                            width: 20rem;
+                        }
+                    }
+
+                    aside{
+                        margin-left: .2rem;
+                        position: fixed;
+                        top: 35rem;
+                        left: 0;
+                        section{
+            
+                            .innerCircle{
+                                width: .6rem;
+                                height: .6rem;
+                                border-radius: 50%;
+                                border: 1px solid $lightGrey;
+                            }
+                            .circleAbout{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 1rem;
+                                height: 1rem;
+                                border-radius: 50%;
+                                border: 1px solid transparent;
+                                margin-bottom: .2rem;
+                            }
+                            .circleLounger{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 1rem;
+                                height: 1rem;
+                                border-radius: 50%;
+                                border: 1px solid transparent;
+                                margin-bottom: .2rem;
+                            }
+                            .circleExperience{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 1rem;
+                                height: 1rem;
+                                border-radius: 50%;
+                                border: 1px solid transparent;
+                                margin-bottom: .2rem;
+                            }
+                            .circleInspiration{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 1rem;
+                                height: 1rem;
+                                border-radius: 50%;
+                                border: 1px solid white;
+                                margin-bottom: .2rem;
+                            }
+                            .circleShop{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 1rem;
+                                height: 1rem;
+                                border-radius: 50%;
+                                border: 1px solid transparent;
+                                margin-bottom: .2rem;
+                            }
+                            .line{
+                                width: 1px;
+                                height: 2rem;
+                                background-color: $lightGrey;
+                                margin-left: .457rem;
+                                margin-bottom: .3rem;
+                            }
+                            .linkAbout{
+                                position: absolute;
+                                top: -.1rem;
+                                left: 1.5rem;
+                                text-decoration: none;
+                                color: $lightGrey;
+                                &:hover{
+                                    color: $lightBeige;
+                                    transition: 1s;
+                                }
+                            }
+                            .linkLounger{
+                                position: absolute;
+                                top: 3.5rem;
+                                left: 1.5rem;
+                                text-decoration: none;
+                                color: $lightGrey;
+                                &:hover{
+                                    color: $lightBeige;
+                                    transition: 1s;
+                                }
+                            }
+                            .linkExperience{
+                                position: absolute;
+                                top: 7rem;
+                                left: 1.5rem;
+                                text-decoration: none;
+                                color: $lightGrey;
+                                &:hover{
+                                    color: $lightBeige;
+                                    transition: 1s;
+                                }
+                            }
+                            .linkInspiration{
+                                position: absolute;
+                                top: 10.5rem;
+                                left: 1.5rem;
+                                text-decoration: none;
+                                color: white;
+                            }
+                            .linkShop{
+                                position: absolute;
+                                top: 14rem;
+                                left: 1.5rem;
+                                text-decoration: none;
+                                color: $lightGrey;
+                                &:hover{
+                                    color: $lightBeige;
+                                    transition: 1s;
+                                }
+                            }
+                        }
+                    }
+            }
+}
+
+
+
+
+
+
+/* ====================== shop ===================== */
+/* ====================== shop ===================== */
+/* ====================== shop ===================== */
+
+
+#shop{
+    background-color: $darkGrey;
+    /* =============== header ============= */
+        .navFlexContainer{
+            @include navFlexContainer;
+    
+    /* navigation on about page */
+                .largeNavFlexContainer{
+                    width: 40vw;
+                    display: flex;
+                    justify-content: space-between;
+    
+                        a{
+                            @include basicNavStyle;
+                        }
+    
+                            a:nth-of-type(1){
+                                margin-right: 2rem;
+                            }
+                            a:nth-of-type(4){
+                                padding-right: 2rem;
+                            }
+                    }
+    
+                /* ======== hamburger Menu ====== */
+    
+                #hamburgerMenuIconPassive{
+                    @include basicHamburgerMenuStyle;
+                    /* display: none; */
+                }
+    
+                #hamburgerMenuIconActive{
+                    @include basicHamburgerMenuStyle;
+                    display: none;
+                }
+    /* ^^^^^^^^^^^^^^^^^^^^^^ nav flex container ^^^^^^^^^^^^^^^^^^^^^^ */
+    
+        }
+        header{
+            /* small navigation */
+            .smallNavContainer{
+                display: none;
+                @include navBarSmall;
+    
+                a{
+                        @include navBarSmallItems;
+                    }
+            }
+            /* text in header */
+            .headerText{
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        main{
+            width: 100vw;
+                .mainFlexContainer{
+                    display: flex;
+                    width: 100vw;
+
+                    .image{
+                        width: 50rem;
+                        /* height: 100vh; */
+                        background: url(../img/section-composition4.jpg);
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    .mainText{
+                        /* padding-top: 10rem; */
+                        width: 40rem;
+                        padding-left: 4rem;
+                        padding-right: 2rem;
+                        font-size: 2rem;
+
+                            .textTitle{
+                                font-size: 3rem;
+                                margin-bottom: 5rem;
+                                color: $lightBeige;
+                            }
+                            .text{
+                                color: $lightGrey;
+                            }
+                    }
+                }
+            aside{
+                margin-left: .2rem;
+                position: fixed;
+                top: 15rem;
+                section{
+    
+                    .innerCircle{
+                        width: .6rem;
+                        height: .6rem;
+                        border-radius: 50%;
+                        border: 1px solid $lightGrey;
+                    }
+                    .circleAbout{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 50%;
+                        border: 1px solid transparent;
+                        margin-bottom: .2rem;
+                    }
+                    .circleLounger{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 50%;
+                        border: 1px solid white;
+                        margin-bottom: .2rem;
+                    }
+                    .circleExperience{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 50%;
+                        border: 1px solid transparent;
+                        margin-bottom: .2rem;
+                    }
+                    .circleInspiration{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 50%;
+                        border: 1px solid transparent;
+                        margin-bottom: .2rem;
+                    }
+                    .circleShop{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 50%;
+                        border: 1px solid transparent;
+                        margin-bottom: .2rem;
+                    }
+                    .line{
+                        width: 1px;
+                        height: 2rem;
+                        background-color: $lightGrey;
+                        margin-left: .457rem;
+                        margin-bottom: .3rem;
+                    }
+                    .linkAbout{
+                        position: absolute;
+                        top: -.1rem;
+                        left: 1.5rem;
+                        text-decoration: none;
+                        color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
+                    }
+                    .linkLounger{
+                        position: absolute;
+                        top: 3.5rem;
+                        left: 1.5rem;
+                        text-decoration: none;
+                        color: white;
+                    }
+                    .linkExperience{
+                        position: absolute;
+                        top: 7rem;
+                        left: 1.5rem;
+                        text-decoration: none;
+                        color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
+                    }
+                    .linkInspiration{
+                        position: absolute;
+                        top: 10.5rem;
+                        left: 1.5rem;
+                        text-decoration: none;
+                        color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
+                    }
+                    .linkShop{
+                        position: absolute;
+                        top: 14rem;
+                        left: 1.5rem;
+                        text-decoration: none;
+                        color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
+                    }
+                }
+            }
+        }
+}
 
 @import "media-queries";
 
