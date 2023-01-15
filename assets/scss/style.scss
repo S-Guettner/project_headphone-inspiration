@@ -1489,6 +1489,23 @@ background-color: $darkGrey;
                 label{
                     display: none;
                 }
+                .newsletterContainer{
+                    display: flex;
+                    justify-content: center;
+                    align-items: baseline;
+                    margin-bottom: 0.5rem;
+                }
+                #newsletter{
+                    display:inline;
+                    color: $lightGrey;
+                    margin-right: 0.2rem;
+                }
+                #newsletterBox{
+                    display: inline;
+                    width: 1rem;
+                    padding-top: 0.125rem;
+
+                }
                 input{
                     width: 100%;
                     padding: .2rem;
@@ -1496,6 +1513,14 @@ background-color: $darkGrey;
                 }
                 textarea{
                     width: 100%;
+                }
+                .button{
+                    width: 100%;
+                    text-align: center;
+                    color: white;
+                    border: 1px solid $lightGrey; 
+                    padding: 0.2rem;
+                    cursor: pointer;
                 }
         }
     }
