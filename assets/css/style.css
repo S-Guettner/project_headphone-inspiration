@@ -1040,7 +1040,6 @@
 }
 #shop header {
   /* small navigation */
-  /* text in header */
 }
 #shop header .smallNavContainer {
   display: none;
@@ -1060,51 +1059,52 @@
   text-decoration: none;
   border-top: 1px solid #867772;
 }
-#shop header .headerText {
+#shop .imageFlexContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+#shop .imageFlexContainer .imageContainer {
+  background: url(../img/section-composition4.jpg);
+  background-size: cover;
+  /*                 width: 50rem; */
+  height: 100%;
+}
+#shop .imageFlexContainer .productContainer {
+  text-align: center;
+  width: 50%;
+  padding-top: 10rem;
+}
+#shop .imageFlexContainer .productContainer figure {
+  /*                         width: 30rem; */
   margin-left: auto;
   margin-right: auto;
 }
-#shop main {
-  width: 100vw;
+#shop .imageFlexContainer .productContainer p:nth-of-type(4) {
+  border: 1px solid black;
+  background-color: rgb(234, 204, 194);
+  display: inline-block;
+  padding: 0.5rem;
 }
-#shop main .mainFlexContainer {
-  display: flex;
-  width: 100vw;
+#shop .imageFlexContainer figcaption {
+  display: none;
 }
-#shop main .mainFlexContainer .image {
-  width: 50rem;
-  /* height: 100vh; */
-  background: url(../img/section-composition4.jpg);
-  background-size: cover;
-  background-position: center;
+#shop .imageFlexContainer p {
+  margin-bottom: 0.5rem;
 }
-#shop main .mainFlexContainer .mainText {
-  /* padding-top: 10rem; */
-  width: 40rem;
-  padding-left: 4rem;
-  padding-right: 2rem;
-  font-size: 2rem;
-}
-#shop main .mainFlexContainer .mainText .textTitle {
-  font-size: 3rem;
-  margin-bottom: 5rem;
-  color: rgb(234, 204, 194);
-}
-#shop main .mainFlexContainer .mainText .text {
-  color: rgb(115, 115, 115);
-}
-#shop main aside {
+
+aside {
   margin-left: 0.2rem;
   position: fixed;
   top: 15rem;
 }
-#shop main aside section .innerCircle {
+aside section .innerCircle {
   width: 0.6rem;
   height: 0.6rem;
   border-radius: 50%;
   border: 1px solid rgb(115, 115, 115);
 }
-#shop main aside section .circleAbout {
+aside section .circleAbout {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1114,7 +1114,7 @@
   border: 1px solid transparent;
   margin-bottom: 0.2rem;
 }
-#shop main aside section .circleLounger {
+aside section .circleLounger {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1124,7 +1124,7 @@
   border: 1px solid white;
   margin-bottom: 0.2rem;
 }
-#shop main aside section .circleExperience {
+aside section .circleExperience {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1134,7 +1134,7 @@
   border: 1px solid transparent;
   margin-bottom: 0.2rem;
 }
-#shop main aside section .circleInspiration {
+aside section .circleInspiration {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1144,7 +1144,7 @@
   border: 1px solid transparent;
   margin-bottom: 0.2rem;
 }
-#shop main aside section .circleShop {
+aside section .circleShop {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1154,61 +1154,61 @@
   border: 1px solid transparent;
   margin-bottom: 0.2rem;
 }
-#shop main aside section .line {
+aside section .line {
   width: 1px;
   height: 2rem;
   background-color: rgb(115, 115, 115);
   margin-left: 0.457rem;
   margin-bottom: 0.3rem;
 }
-#shop main aside section .linkAbout {
+aside section .linkAbout {
   position: absolute;
   top: -0.1rem;
   left: 1.5rem;
   text-decoration: none;
   color: rgb(115, 115, 115);
 }
-#shop main aside section .linkAbout:hover {
+aside section .linkAbout:hover {
   color: rgb(234, 204, 194);
   transition: 1s;
 }
-#shop main aside section .linkLounger {
+aside section .linkLounger {
   position: absolute;
   top: 3.5rem;
   left: 1.5rem;
   text-decoration: none;
   color: white;
 }
-#shop main aside section .linkExperience {
+aside section .linkExperience {
   position: absolute;
   top: 7rem;
   left: 1.5rem;
   text-decoration: none;
   color: rgb(115, 115, 115);
 }
-#shop main aside section .linkExperience:hover {
+aside section .linkExperience:hover {
   color: rgb(234, 204, 194);
   transition: 1s;
 }
-#shop main aside section .linkInspiration {
+aside section .linkInspiration {
   position: absolute;
   top: 10.5rem;
   left: 1.5rem;
   text-decoration: none;
   color: rgb(115, 115, 115);
 }
-#shop main aside section .linkInspiration:hover {
+aside section .linkInspiration:hover {
   color: rgb(234, 204, 194);
   transition: 1s;
 }
-#shop main aside section .linkShop {
+aside section .linkShop {
   position: absolute;
   top: 14rem;
   left: 1.5rem;
   text-decoration: none;
   color: rgb(115, 115, 115);
 }
-#shop main aside section .linkShop:hover {
+aside section .linkShop:hover {
   color: rgb(234, 204, 194);
   transition: 1s;
 }
@@ -1218,30 +1218,30 @@
 /* ========= about =========== */
 @media only screen and (max-width: 1000px) {
   /* ========= navigation ========= */
-  .largeNavFlexContainer {
+  #about .largeNavFlexContainer {
     display: none;
   }
-  .largeNavFlexContainer a {
+  #about .largeNavFlexContainer a {
     display: none;
   }
-  #hamburgerMenuIconPassive {
+  #about #hamburgerMenuIconPassive {
     display: block;
   }
 }
 @media only screen and (max-width: 815px) {
-  .headerText {
+  #about .headerText {
     max-width: 60vw;
     margin-bottom: 3rem;
     padding-top: 12vh;
   }
-  .footerFlexContainer {
+  #about .footerFlexContainer {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .footerFlexContainer figure {
+  #about .footerFlexContainer figure {
     margin-bottom: 1rem;
   }
-  .footerFlexContainer article {
+  #about .footerFlexContainer article {
     text-align: center;
   }
 }
@@ -1271,6 +1271,15 @@
 /* ================ lounger ============= */
 /* ================ lounger ============= */
 @media only screen and (max-width: 1000px) {
+  #lounger .largeNavFlexContainer {
+    display: none;
+  }
+  #lounger .largeNavFlexContainer a {
+    display: none;
+  }
+  #lounger #hamburgerMenuIconPassive {
+    display: block;
+  }
   #lounger .mainFlexContainer {
     flex-wrap: wrap;
     justify-content: center;
@@ -1294,6 +1303,15 @@
 /* ================ experience ============= */
 /* ================ experience ============= */
 @media only screen and (max-width: 1000px) {
+  #experience .largeNavFlexContainer {
+    display: none;
+  }
+  #experience .largeNavFlexContainer a {
+    display: none;
+  }
+  #experience #hamburgerMenuIconPassive {
+    display: block;
+  }
   #experience .mainFlexContainer {
     flex-wrap: wrap;
     justify-content: center;
@@ -1317,19 +1335,28 @@
 /* ================ inspiration ============= */
 /* ================ inspiration ============= */
 @media only screen and (max-width: 1250px) {
-  .wrap {
+  #inspiration .largeNavFlexContainer {
+    display: none;
+  }
+  #inspiration .largeNavFlexContainer a {
+    display: none;
+  }
+  #inspiration #hamburgerMenuIconPassive {
+    display: block;
+  }
+  #inspiration .wrap {
     flex-wrap: wrap;
   }
-  .reverseWrap {
+  #inspiration .reverseWrap {
     flex-wrap: wrap-reverse;
   }
-  .firstImageContainer {
+  #inspiration .firstImageContainer {
     margin-bottom: 3rem;
   }
-  .secondImageContainer {
+  #inspiration .secondImageContainer {
     margin-bottom: 3rem;
   }
-  .mainSectionTextContainer {
+  #inspiration .mainSectionTextContainer {
     margin-bottom: 3rem;
   }
 }
@@ -1340,8 +1367,65 @@
   }
 }
 @media only screen and (min-width: 701px) {
-  main {
+  #inspiration main {
     margin-left: 12rem;
     margin-right: 12rem;
+  }
+}
+/* ================== shop =============== */
+/* ================== shop =============== */
+/* ================== shop =============== */
+@media only screen and (max-width: 1000px) {
+  #shop .largeNavFlexContainer {
+    display: none;
+  }
+  #shop .largeNavFlexContainer a {
+    display: none;
+  }
+  #shop #hamburgerMenuIconPassive {
+    display: block;
+  }
+  #shop .imageFlexContainer .imageContainer {
+    width: 100vw;
+  }
+  #shop .imageFlexContainer .productContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  #shop .imageFlexContainer .productContainer p {
+    margin-right: 1rem;
+  }
+  #shop .imageFlexContainer .productContainer figure {
+    width: 30rem;
+  }
+  #shop .imageFlexContainer .productContainer figure img {
+    width: 25rem;
+  }
+}
+@media only screen and (min-width: 1001px) {
+  #shop .imageContainer {
+    width: 50rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #shop {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  #shop .imageContainer {
+    width: 100vw;
+  }
+  #shop figure {
+    max-width: 380px;
+  }
+  #shop figure img {
+    max-width: 380px;
   }
 }/*# sourceMappingURL=style.css.map */

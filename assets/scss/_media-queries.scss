@@ -4,31 +4,34 @@
 
 @media only screen and (max-width:1000px){
     /* ========= navigation ========= */
-    .largeNavFlexContainer{
-        display: none;
-        a{
+    #about{
+        .largeNavFlexContainer{
             display: none;
+            a{
+                display: none;
+            }
         }
-    }
-    #hamburgerMenuIconPassive{
-        display: block;
+        #hamburgerMenuIconPassive{
+            display: block;
+        }
     }
 }
 @media only screen and(max-width:815px){
-    
-    .headerText{
-        max-width:60vw;
-        margin-bottom: 3rem;
-        padding-top: 12vh;
-    }
-    .footerFlexContainer{
-        flex-wrap: wrap;
-        justify-content: center;
-        figure{
-            margin-bottom: 1rem;
+    #about{
+        .headerText{
+            max-width:60vw;
+            margin-bottom: 3rem;
+            padding-top: 12vh;
         }
-        article{
-            text-align: center;
+        .footerFlexContainer{
+            flex-wrap: wrap;
+            justify-content: center;
+            figure{
+                margin-bottom: 1rem;
+            }
+            article{
+                text-align: center;
+            }
         }
     }
 
@@ -64,6 +67,15 @@
 
 @media only screen and (max-width:1000px){
     #lounger{
+        .largeNavFlexContainer{
+            display: none;
+            a{
+                display: none;
+            }
+        }
+        #hamburgerMenuIconPassive{
+            display: block;
+        }
         .mainFlexContainer{
             flex-wrap: wrap;
             justify-content: center;
@@ -97,6 +109,15 @@
 
 @media only screen and (max-width:1000px){
     #experience{
+        .largeNavFlexContainer{
+            display: none;
+            a{
+                display: none;
+            }
+        }
+        #hamburgerMenuIconPassive{
+            display: block;
+        }
         .mainFlexContainer{
             flex-wrap: wrap;
             justify-content: center;
@@ -130,20 +151,32 @@
 /* ================ inspiration ============= */
 
 @media only screen and (max-width:1250px){
-    .wrap{
-        flex-wrap: wrap;
-    }
-    .reverseWrap{
-        flex-wrap: wrap-reverse;
-    }
-    .firstImageContainer{
-        margin-bottom: 3rem;
-    }
-    .secondImageContainer{
-        margin-bottom: 3rem;
-    }
-    .mainSectionTextContainer{
-        margin-bottom: 3rem;
+    #inspiration{
+        .largeNavFlexContainer{
+            display: none;
+            a{
+                display: none;
+            }
+        }
+        #hamburgerMenuIconPassive{
+            display: block;
+        }
+
+        .wrap{
+            flex-wrap: wrap;
+        }
+        .reverseWrap{
+            flex-wrap: wrap-reverse;
+        }
+        .firstImageContainer{
+            margin-bottom: 3rem;
+        }
+        .secondImageContainer{
+            margin-bottom: 3rem;
+        }
+        .mainSectionTextContainer{
+            margin-bottom: 3rem;
+        }
     }
 }
 @media only screen and (max-width:700px){
@@ -154,8 +187,80 @@
 }
 
 @media only screen and (min-width:701px){
-    main{
-        margin-left: 12rem;
-        margin-right: 12rem;
+    #inspiration{
+        main{
+            margin-left: 12rem;
+            margin-right: 12rem;
+        }
+    }
+
+}
+
+
+/* ================== shop =============== */
+/* ================== shop =============== */
+/* ================== shop =============== */
+
+@media only screen and (max-width:1000px){
+    #shop{
+        .largeNavFlexContainer{
+            display: none;
+            a{
+                display: none;
+            }
+        }
+        #hamburgerMenuIconPassive{
+            display: block;
+        }
+        .imageFlexContainer{
+            .imageContainer{
+                width: 100vw;
+            }
+            .productContainer{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+                    p{
+                        margin-right: 1rem;
+                    }
+                figure{
+                    width: 30rem;
+                    img{
+                        width: 25rem;
+                    }
+                }
+    
+            }
+        }
+    }
+
+}
+@media only screen and (min-width:1001px){
+    #shop{
+        .imageContainer{
+            width: 50rem;
+        }
+    }
+}
+
+@media only screen and (max-width:700px){
+    #shop{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        .imageContainer{
+            width: 100vw;
+        }
+        figure{
+            max-width: 380px;
+            img{
+            max-width: 380px;
+            }
+        }
     }
 }

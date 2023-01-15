@@ -1006,42 +1006,43 @@ background-color: $darkGrey;
                         @include navBarSmallItems;
                     }
             }
-            /* text in header */
-            .headerText{
-                margin-left: auto;
-                margin-right: auto;
-            }
         }
-        main{
+        .imageFlexContainer{
             width: 100vw;
-                .mainFlexContainer{
-                    display: flex;
-                    width: 100vw;
+            height: 100vh;
+            display: flex;
+            .imageContainer{
+                background: url(../img/section-composition4.jpg);
+                background-size: cover;
+/*                 width: 50rem; */
+                height: 100%;
+            }
+            .productContainer{
+                text-align: center;
+                width: 50%;
+                padding-top: 10rem;
 
-                    .image{
-                        width: 50rem;
-                        /* height: 100vh; */
-                        background: url(../img/section-composition4.jpg);
-                        background-size: cover;
-                        background-position: center;
+                    figure{
+/*                         width: 30rem; */
+                        margin-left: auto;
+                        margin-right: auto;
                     }
-                    .mainText{
-                        /* padding-top: 10rem; */
-                        width: 40rem;
-                        padding-left: 4rem;
-                        padding-right: 2rem;
-                        font-size: 2rem;
-
-                            .textTitle{
-                                font-size: 3rem;
-                                margin-bottom: 5rem;
-                                color: $lightBeige;
-                            }
-                            .text{
-                                color: $lightGrey;
-                            }
+                    p:nth-of-type(4){
+                        border: 1px solid black;
+                        background-color:$lightBeige;
+                        display: inline-block;
+                        padding: .5rem;
                     }
                 }
+                figcaption{
+                    display: none;
+                }
+                    p{
+                        margin-bottom:.5rem ;
+                    }
+            }
+        }
+
             aside{
                 margin-left: .2rem;
                 position: fixed;
@@ -1163,9 +1164,8 @@ background-color: $darkGrey;
                         }
                     }
                 }
-            }
-        }
-}
+            }       
+
 
 @import "media-queries";
 
