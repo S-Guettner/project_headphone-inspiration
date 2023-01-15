@@ -153,6 +153,16 @@
                     border: 1px solid transparent;
                     margin-bottom: .2rem;
                 }
+                .circleContact{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 1rem;
+                    height: 1rem;
+                    border-radius: 50%;
+                    border: 1px solid transparent;
+                    margin-bottom: .2rem;
+                }
                 .line{
                     width: 1px;
                     height: 2rem;
@@ -203,6 +213,17 @@
                 .linkShop{
                     position: absolute;
                     top: 14rem;
+                    left: 1.5rem;
+                    text-decoration: none;
+                    color: $lightGrey;
+                    &:hover{
+                        color: $lightBeige;
+                        transition: 1s;
+                    }
+                }
+                .linkContact{
+                    position: absolute;
+                    top: 17.5rem;
                     left: 1.5rem;
                     text-decoration: none;
                     color: $lightGrey;
@@ -421,6 +442,16 @@
                         border: 1px solid transparent;
                         margin-bottom: .2rem;
                     }
+                    .circleContact{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 50%;
+                        border: 1px solid transparent;
+                        margin-bottom: .2rem;
+                    }
                     .line{
                         width: 1px;
                         height: 2rem;
@@ -471,6 +502,17 @@
                     .linkShop{
                         position: absolute;
                         top: 14rem;
+                        left: 1.5rem;
+                        text-decoration: none;
+                        color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
+                    }
+                    .linkContact{
+                        position: absolute;
+                        top: 17.5rem;
                         left: 1.5rem;
                         text-decoration: none;
                         color: $lightGrey;
@@ -639,6 +681,16 @@ background-color: $darkGrey;
                         border: 1px solid transparent;
                         margin-bottom: .2rem;
                     }
+                    .circleContact{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 50%;
+                        border: 1px solid transparent;
+                        margin-bottom: .2rem;
+                    }
                     .line{
                         width: 1px;
                         height: 2rem;
@@ -689,6 +741,17 @@ background-color: $darkGrey;
                     .linkShop{
                         position: absolute;
                         top: 14rem;
+                        left: 1.5rem;
+                        text-decoration: none;
+                        color: $lightGrey;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
+                    }
+                    .linkContact{
+                        position: absolute;
+                        top: 17.5rem;
                         left: 1.5rem;
                         text-decoration: none;
                         color: $lightGrey;
@@ -885,6 +948,16 @@ background-color: $darkGrey;
                                 border: 1px solid transparent;
                                 margin-bottom: .2rem;
                             }
+                            .circleContact{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 1rem;
+                                height: 1rem;
+                                border-radius: 50%;
+                                border: 1px solid transparent;
+                                margin-bottom: .2rem;
+                            }
                             .line{
                                 width: 1px;
                                 height: 2rem;
@@ -935,6 +1008,17 @@ background-color: $darkGrey;
                             .linkShop{
                                 position: absolute;
                                 top: 14rem;
+                                left: 1.5rem;
+                                text-decoration: none;
+                                color: $lightGrey;
+                                &:hover{
+                                    color: $lightBeige;
+                                    transition: 1s;
+                                }
+                            }
+                            .linkContact{
+                                position: absolute;
+                                top: 17.5rem;
                                 left: 1.5rem;
                                 text-decoration: none;
                                 color: $lightGrey;
@@ -1072,7 +1156,7 @@ background-color: $darkGrey;
                         width: 1rem;
                         height: 1rem;
                         border-radius: 50%;
-                        border: 1px solid white;
+                        border: 1px solid transparent;
                         margin-bottom: .2rem;
                     }
                     .circleExperience{
@@ -1096,6 +1180,16 @@ background-color: $darkGrey;
                         margin-bottom: .2rem;
                     }
                     .circleShop{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1rem;
+                        height: 1rem;
+                        border-radius: 50%;
+                        border: 1px solid white;
+                        margin-bottom: .2rem;
+                    }
+                    .circleContact{
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -1128,7 +1222,7 @@ background-color: $darkGrey;
                         top: 3.5rem;
                         left: 1.5rem;
                         text-decoration: none;
-                        color: white;
+                        color: $lightGrey;
                     }
                     .linkExperience{
                         position: absolute;
@@ -1157,6 +1251,17 @@ background-color: $darkGrey;
                         top: 14rem;
                         left: 1.5rem;
                         text-decoration: none;
+                        color: white;
+                        &:hover{
+                            color: $lightBeige;
+                            transition: 1s;
+                        }
+                    }
+                    .linkContact{
+                        position: absolute;
+                        top: 17.5rem;
+                        left: 1.5rem;
+                        text-decoration: none;
                         color: $lightGrey;
                         &:hover{
                             color: $lightBeige;
@@ -1165,6 +1270,208 @@ background-color: $darkGrey;
                     }
                 }
             }       
+
+
+/* ====================== contact ===================== */
+/* ====================== contact ===================== */
+/* ====================== contact ===================== */
+
+
+#contact{
+    background-color: $darkGrey;
+    /* =============== header ============= */
+        .navFlexContainer{
+            @include navFlexContainer;
+    
+    /* navigation on about page */
+                .largeNavFlexContainer{
+                    width: 40vw;
+                    display: flex;
+                    justify-content: space-between;
+    
+                        a{
+                            @include basicNavStyle;
+                        }
+    
+                            a:nth-of-type(1){
+                                margin-right: 2rem;
+                            }
+                            a:nth-of-type(4){
+                                padding-right: 2rem;
+                            }
+                    }
+    
+                /* ======== hamburger Menu ====== */
+    
+                #hamburgerMenuIconPassive{
+                    @include basicHamburgerMenuStyle;
+                    /* display: none; */
+                }
+    
+                #hamburgerMenuIconActive{
+                    @include basicHamburgerMenuStyle;
+                    display: none;
+                }
+    /* ^^^^^^^^^^^^^^^^^^^^^^ nav flex container ^^^^^^^^^^^^^^^^^^^^^^ */
+    
+        }
+        header{
+            /* small navigation */
+            .smallNavContainer{
+                display: none;
+                @include navBarSmall;
+    
+                a{
+                        @include navBarSmallItems;
+                    }
+            }
+        }
+        aside{
+            margin-left: .2rem;
+            position: fixed;
+            top: 25rem;
+            left: 0;
+            section{
+
+                .innerCircle{
+                    width: .6rem;
+                    height: .6rem;
+                    border-radius: 50%;
+                    border: 1px solid $lightGrey;
+                }
+                .circleAbout{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 1rem;
+                    height: 1rem;
+                    border-radius: 50%;
+                    border: 1px solid transparent;
+                    margin-bottom: .2rem;
+                }
+                .circleLounger{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 1rem;
+                    height: 1rem;
+                    border-radius: 50%;
+                    border: 1px solid transparent;
+                    margin-bottom: .2rem;
+                }
+                .circleExperience{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 1rem;
+                    height: 1rem;
+                    border-radius: 50%;
+                    border: 1px solid transparent;
+                    margin-bottom: .2rem;
+                }
+                .circleInspiration{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 1rem;
+                    height: 1rem;
+                    border-radius: 50%;
+                    border: 1px solid transparent;
+                    margin-bottom: .2rem;
+                }
+                .circleShop{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 1rem;
+                    height: 1rem;
+                    border-radius: 50%;
+                    border: 1px solid transparent;
+                    margin-bottom: .2rem;
+                }
+                .circleContact{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 1rem;
+                    height: 1rem;
+                    border-radius: 50%;
+                    border: 1px solid white;
+                    margin-bottom: .2rem;
+                }
+                .line{
+                    width: 1px;
+                    height: 2rem;
+                    background-color: $lightGrey;
+                    margin-left: .457rem;
+                    margin-bottom: .3rem;
+                }
+                .linkAbout{
+                    position: absolute;
+                    top: -.1rem;
+                    left: 1.5rem;
+                    text-decoration: none;
+                    color: $lightGrey;
+                    &:hover{
+                        color: $lightBeige;
+                        transition: 1s;
+                    }
+                }
+                .linkLounger{
+                    position: absolute;
+                    top: 3.5rem;
+                    left: 1.5rem;
+                    text-decoration: none;
+                    color: $lightGrey;
+                    &:hover{
+                        color: $lightBeige;
+                        transition: 1s;
+                    }
+                }
+                .linkExperience{
+                    position: absolute;
+                    top: 7rem;
+                    left: 1.5rem;
+                    text-decoration: none;
+                    color: $lightGrey;
+                    &:hover{
+                        color: $lightBeige;
+                        transition: 1s;
+                    }
+                }
+                .linkInspiration{
+                    position: absolute;
+                    top: 10.5rem;
+                    left: 1.5rem;
+                    text-decoration: none;
+                    color:$lightGrey;
+                }
+                .linkShop{
+                    position: absolute;
+                    top: 14rem;
+                    left: 1.5rem;
+                    text-decoration: none;
+                    color: $lightGrey;
+                    &:hover{
+                        color: $lightBeige;
+                        transition: 1s;
+                    }
+                }
+                .linkContact{
+                    position: absolute;
+                    top: 17.5rem;
+                    left: 1.5rem;
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        color: $lightBeige;
+                        transition: 1s;
+                    }
+                }
+            }
+        }
+
+}
 
 
 @import "media-queries";
